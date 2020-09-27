@@ -3,9 +3,9 @@
 
 struct n{
     int data;
-    n * next;
+    struct n * next;
 };
-typedef n node;
+typedef struct n node;
 
 int main(){
     node * root;
